@@ -19,4 +19,53 @@ print(type(name))
 print(type(gpa))
 
 
+a=23
+old=False
+b=None
+print(type(old))
+print(type(b))
+
+
+#operator
+a=10
+b=5
+
+print(a+b)
+print(a-b)
+print(a*b)
+print(a/b)
+print(a%b)
+print(a**b)# a to the power 2
+
+
+print(a==b)
+print(a!=b)
+
+print(a>=b)
+print(a>b)
+
+print(a<=b)
+print(a<b)
+
+num=10
+# num+= 10 #num=num+10
+# num+= 5 #num=num+5
+# num*= 5 #num=num*5
+num%= 5 #num=num%5
+
+
+
+print("NUM:",num)
+
+
+"""
+multiline
+comment """
+# (ctrl + /) for comment selected line
+#operator
+
+
+
+
+
 
