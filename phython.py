@@ -64,6 +64,9 @@ comment """
 # (ctrl + /) for comment selected line
 #operator
 
+print(not True)
+print()
+
 
 
 
