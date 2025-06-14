@@ -65,9 +65,15 @@ comment """
 #operator
 
 print(not True)
-print()
+print(not False)
 
+p=30
+q=50
 
+print(not(a>b))
+val1=True
+Val2= True
+print("and operator:",val1 and Val2)
 
 
 
