@@ -88,6 +88,17 @@ y=3
 print(w+y)
 
 
+#user input
+
+#input("enter your name:")
+name=input("enter your name:") # input converting any typer of valu in string type
+#print("welcome",name)
+print(type(name),name)
+
+age=int(input("enter your age:"))
+print(type(age),age)
+
+
 
 
  
