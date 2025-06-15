@@ -72,8 +72,25 @@ q=50
 
 print(not(a>b))
 val1=True
-Val2= True
-print("and operator:",val1 and Val2)
+val2= True
+print("And operator:",val1 and val2)
+print("or operator:", val1 or val2)
+print((p==q) or (p>q))
+#type conversion
+w=5
+x=4.9
+print(x+w)  #autometiclly print float type
+#type casting
+
+w=int(x)
+y=3
+
+print(w+y)
+
+
+
+
+ 
 
 
 
