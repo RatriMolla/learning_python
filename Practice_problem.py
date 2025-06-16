@@ -1,5 +1,5 @@
-b=5.78
-a=int(b)
+c=5.78
+a=int(c)
 print(a)
 #1write  a program to input 2 number and print sum
 
