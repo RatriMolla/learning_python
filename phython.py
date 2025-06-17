@@ -91,12 +91,38 @@ print(w+y)
 #user input
 
 #input("enter your name:")
-name=input("enter your name:") # input converting any typer of valu in string type
+#name=input("enter your name:") # input converting any typer of valu in string type
 #print("welcome",name)
 print(type(name),name)
 
-age=int(input("enter your age:"))
+#age=int(input("enter your age:"))
 print(type(age),age)
+
+#string
+str1 ="this is a string .\n two are creating it in "
+print(str1)
+
+
+str2="ratri"
+str3="molla"
+name= str2+ " " +str3
+print(name)
+#string length len(str)
+print(len(name))
+#indexing str[index]
+ch=name[4]
+print(ch)
+print(name[3])
+#slicing: accessing parts of a string str[starting_idx : end_idx]
+print(name[0:5])
+print(name[4:11])
+print(name[0:len(name)])
+
+print(name[:12])
+print(name[0:])
+print(name[-4:-1])
+
+
 
 
 
