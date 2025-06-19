@@ -130,7 +130,16 @@ str4="i am studing python"
 
 print(str4.endswith("on"))
 
-print(name.capitalize())
+print(name.capitalize())# capitalized first letter
+
+print(name.replace("studing","learning"))
+print(name.find("a"))
+print(name.count("a"))
+print(name.find("a"))
+
+
+
+
 
 
  
