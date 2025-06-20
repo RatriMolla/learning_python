@@ -34,3 +34,8 @@ a=int (input("a:") )
 
 b= int (input("b:") )
 print(a>=b)
+
+#find the length of string
+
+str="hello"
+print(len(str))
