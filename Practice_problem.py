@@ -37,5 +37,8 @@ print(a>=b)
 
 #find the length of string
 
-str="hello"
+str=str(input("firstname:"))
 print(len(str))
+
+# count $
+print(str.count("$"))

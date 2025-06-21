@@ -114,14 +114,14 @@ ch=name[4]
 print(ch)
 print(name[3])
 #slicing: accessing parts of a string str[starting_idx : end_idx]
-# print(name[0:5])
-# print(name[4:11])
-# print(name[0:len(name)])
+print(name[0:5])
+print(name[4:11])
+print(name[0:len(name)])
 
-# print(name[:12])
-# print(name[0:])
-# print(name[-4:-1])
-# print(name[-7:-1])
+print(name[:12])
+print(name[0:])
+print(name[-4:-1])
+print(name[-7:-1])
 
 #string function 
 
