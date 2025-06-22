@@ -42,3 +42,10 @@ print(len(str))
 
 # count $
 print(str.count("$"))
+
+
+#abc="fytguyh huyui uuy"
+
+abc=str(input("string"))
+print(abc.count("u"))
+ 
