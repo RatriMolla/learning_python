@@ -137,6 +137,33 @@ print(name.find("a"))
 print(name.count("a"))
 print(name.find("a"))
 
+#conditional statement
+age3 =int(input("age:"))
+color=str(input("color"))
+# if(age3 >= 21):
+#     print("can vote ") #4 space
+#colour=green
+
+# if(True):
+#     print("go")
+
+if(color == "green"):
+     print("go")
+elif(color=="red"):
+    print ("stop")
+elif(color=="yellow"):
+    print ("look")     
+    
+        
+
+         
+
+
+
+
+
+
+
 
 
 
