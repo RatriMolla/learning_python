@@ -152,8 +152,21 @@ if(color == "green"):
 elif(color=="red"):
     print ("stop")
 elif(color=="yellow"):
-    print ("look")     
-    
+    print ("look") 
+else:
+    print("no light")    
+
+    #nesting
+age=34   
+if("age>=18"):
+    if("age>=35"):
+        print("can't apply for this job")
+    else:    
+        print("can apply for this job")  
+else:
+    print("can't apply for this job")
+
+
         
 
          

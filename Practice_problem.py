@@ -48,4 +48,25 @@ print(str.count("$"))
 
 abc=str(input("string"))
 print(abc.count("u"))
+
+#grade student based on marks
+marks=int(input("marks:"))
+
+if("marks>=90"):
+    grade="A"
+elif("marks<90" and "marks >=80"):
+    grade="A-"
+elif("marks<40"):
+    grade="pass "
+else:
+   grade="fail"   
+#wap to check if a number odd or even
+num=int(input("number:"))
+#d=num/2
+if("num/2==0") :
+    print("it's even number") 
+else:
+    print("it's odd number")   
+          
+
  
