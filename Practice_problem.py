@@ -62,8 +62,8 @@ else:
    grade="fail"   
 #wap to check if a number odd or even
 num=int(input("number:"))
-#d=num/2
-if("num/2==0") :
+#d=num%2
+if("num%2==0") :
     print("it's even number") 
 else:
     print("it's odd number")   
