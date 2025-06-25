@@ -37,18 +37,18 @@ print(a>=b)
 
 #find the length of string
 
-str=str(input("firstname:"))
-print(len(str))
+str1=str(input("firstname:"))
+print(len(str1))
 
 # count $
-print(str.count("$"))
+print(str1.count("$"))
 
 
 #abc="fytguyh huyui uuy"
 
-abc=str(input("string"))
+abc=str(input("string:"))
 print(abc.count("u"))
-
+3
 #grade student based on marks
 marks=int(input("marks:"))
 
@@ -63,10 +63,33 @@ else:
 #wap to check if a number odd or even
 num=int(input("number:"))
 #d=num%2
-if("num%2==0") :
+if(num%2==0) :
     print("it's even number") 
 else:
-    print("it's odd number")   
+    print("it's odd number")
+    #find greatest of 3 numbers entered by the number
+num1=int(input("num1:")) 
+num2=int(input("num1:")) 
+num3=int(input("num1:"))    
+if(num1 > num2 and num1 >num3):
+    print(num1,"num1 is greatest number")
+elif( num2> num1 and  num2 > num3):
+    print(num2,"num2 is greatest  number")
+else:
+    print(num3,"num3 is greatest")  
+
+#if a number is a multiple of 7 or not
+
+number =int(input("number:"))
+
+if(number%7==0):
+    print(number,"number is multiple of 7")
+else:
+    print(number,"number is not multiple of 7" )    
+          
+ 
+
+
           
 
  
