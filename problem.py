@@ -47,3 +47,14 @@ print(list1)
 
 #Tuples
 
+tup=(1,)#single element tuple,without comma it's just a integer number
+print(tup)
+print(type(tup))
+
+tpl=(3,5,6,8,3,6,)
+print(tpl[1:3])
+
+tpl.index(5)
+print(tpl.index(5))#.index(element), it find index of value
+
+print(tpl.count(6))# count how may time element has in tuple

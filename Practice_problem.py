@@ -85,7 +85,10 @@ number =int(input("number:"))
 if(number%7==0):
     print(number,"number is multiple of 7")
 else:
-    print(number,"number is not multiple of 7" )    
+    print(number,"number is not multiple of 7" )  
+    #list 
+marks =[89.4, 88, 89, 81, 90]  
+print(marks)
           
  
 
