@@ -90,6 +90,17 @@ else:
 marks =[89.4, 88, 89, 81, 90]  
 print(marks)
           
+
+#ask to user input 3 value of a list
+list=[]
+mov1=input("enter 1st movie:")
+mov2=input("enter 2st movie:")
+mov3=input("enter 3st movie:")
+
+list.append(mov1)
+list.append(mov2)
+list.append(mov3)
+print(list)          
  
 
 

@@ -23,7 +23,9 @@
 # print(marks[-5:-1])
 
 # #method of list
-# list=[2,1,4]
+list=[2,1,4]
+list2=list.copy()
+print(list2)
 # list.append(5)# add element in the last
 
 # list.sort()#sort ascending order
@@ -58,12 +60,14 @@
 # print(tpl.index(5))#.index(element), it find index of value
 
 # print(tpl.count(6))# count how may time element has in tuple
-list=[]
-mov1=input("enter 1st movie:")
-mov2=input("enter 2st movie:")
-mov3=input("enter 3st movie:")
+# list=[]
+# mov1=input("enter 1st movie:")
+# mov2=input("enter 2st movie:")
+# mov3=input("enter 3st movie:")
 
-list.append(mov1)
-list.append(mov2)
-list.append(mov3)
-print(list)
+# list.append(mov1)
+# list.append(mov2)
+# list.append(mov3)
+# print(list)
+# list.append(input("enter movie:"))
+ # to check is the list contaun a palindrom of elements.
