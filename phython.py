@@ -189,6 +189,9 @@ print(list)
 list.sort(reverse=True)#decending order
 print(list)
 
+list2=list.copy()
+print(list2)
+
 list1=["rose","lily","nightqueen","lotus","sunflower"]
 list1.sort()
 print(list1)
