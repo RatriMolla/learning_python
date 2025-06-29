@@ -102,8 +102,37 @@ list.append(mov2)
 list.append(mov3)
 print(list)          
  
+#check if a list contains a palindrome of elements
+
+list=[1,2,3,2,1]
 
 
-          
+if(list == list[::-1]):
+    print("it is palindrom")
+else :   
+    print("it isn't palindrom")
 
- 
+#another method
+
+
+list=[1,2,3,2,1]
+copylist=list.copy()
+
+copylist.reverse()
+
+if(list == copylist ):
+    print("it is palindrom")
+else :   
+    print("it isn't palindrom")
+
+    
+
+#check if a sting contains a palindrome of elements          
+
+st= str(input("string:"))
+if(st == st[::-1]):
+    print("it is palindrom")
+else :   
+    print("it is not palindrom")
+
+    

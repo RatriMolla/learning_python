@@ -122,7 +122,7 @@ print(name[:12])
 print(name[0:])
 print(name[-4:-1])
 print(name[-7:-1])
-
+print(name[::-1])# reverse: one step backward
 #string function 
 
 
@@ -176,8 +176,16 @@ student =["ratri", "cse",25]
 print(student)
 student[0]="mafruja" 
 print(student)
+#list slicing  list[start:stop]
+
 print(marks[1:5])
 print(marks[-5:-1])
+
+#list[start:stop:step]
+
+print(marks[::2])# TAKE EVERY second element 
+
+print(marks[::-1])# reverse: one step backward
 
 #method of list
 list=[2,1,4]
