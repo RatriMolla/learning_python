@@ -233,6 +233,17 @@ print(tpl.index(5))#.index(element), it find index of value
 print(tpl.count(6))# count how may time element has in tuple
 
 
+#dictionary in python "key":value
+info={
+      "name":"ratri",
+      "age":23,
+      "university":"ZHSUST",
+      "Learning": "coding",
+      "course_name":["python","css","javascript"]
+
+}
+
+print (info)
         
 
          
