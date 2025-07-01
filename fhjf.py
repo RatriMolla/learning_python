@@ -17,8 +17,14 @@ info={
       "name":"ratri",
       "age":23,
       "university":"ZHSUST",
-      "Learning": "coding"
+      "Learning": "coding",
+      "course_name":["python","css","javascript"],
+     
+
 }
 
 print (info)
-        
+info["name"] ="ratrimolla" 
+info["batch"]="25th"      
+print(info)
+         

@@ -239,17 +239,32 @@ info={
       "age":23,
       "university":"ZHSUST",
       "Learning": "coding",
-      "course_name":["python","css","javascript"]
+      "course_name":["python","css","javascript"],
+     
 
 }
 
 print (info)
-        
-
+info["name"] ="ratrimolla" 
+info["batch"]="25th"      
+print(info)
          
+null_dic={}
 
+#nasted dictionary
 
+student={
+"name":"ratri",
+"roll":"016",
+"batch":"25",
+"dept":"cse",
+ "course":{
+     "HTML":"completed",
+     "JAVASCRIPT":"completed",
+     "PYTHON":"RUNNING"
+      }
 
+}
 
 
 
