@@ -265,6 +265,32 @@ student={
       }
 
 }
+print(student)
+print(student["course"])
+
+#dictionary method
+print(list(student.keys()))
+print(student.keys())
+print(len(list(student.keys())))
+print(student.items())
+pairs=list(student.items())
+
+print(pairs[0])
+
+print(student.get("name"))
+print(student["name"])
+
+location={
+    "devision":"dhaka",
+    "distric":"shariatpur",
+    "union":"gharishar"
+   }
+student.update(location)
+
+print(student)
+#set in python
+
+
 
 
 

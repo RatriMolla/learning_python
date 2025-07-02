@@ -13,18 +13,37 @@
 #     print("f")
 
 # 
-info={
-      "name":"ratri",
-      "age":23,
-      "university":"ZHSUST",
-      "Learning": "coding",
-      "course_name":["python","css","javascript"],
-     
+student={
+"name":"ratri",
+"roll":"016",
+"batch":"25",
+"dept":"cse",
+ "course":{
+     "HTML":"completed",
+     "JAVASCRIPT":"completed",
+     "PYTHON":"RUNNING"
+      }
 
 }
 
-print (info)
-info["name"] ="ratrimolla" 
-info["batch"]="25th"      
-print(info)
-         
+print(student["course"])
+print(list(student.keys()))
+print(student.keys())
+print(len(list(student.keys())))
+print(student.items())
+pairs=list(student.items())
+
+print(pairs[0])
+
+print(student.get("name"))
+print(student["name"])
+
+location={
+    "devision":"dhaka",
+    "distric":"shariatpur",
+    "union":"gharishar"
+   }
+student.update(location)
+
+print(student)
+
