@@ -13,37 +13,37 @@
 #     print("f")
 
 # 
-student={
-"name":"ratri",
-"roll":"016",
-"batch":"25",
-"dept":"cse",
- "course":{
-     "HTML":"completed",
-     "JAVASCRIPT":"completed",
-     "PYTHON":"RUNNING"
-      }
 
-}
+#set in muteable but element of set is immuatble
+collection ={3, 6, 8.78,"abc",}
+# emptyset= set()
+collection.add("ratri")
+collection.add("ratri")#set ignore duplicate value
+collection.remove("ratri")
+print(collection)
+# collection.add(["ratri"])#set don't support list
 
-print(student["course"])
-print(list(student.keys()))
-print(student.keys())
-print(len(list(student.keys())))
-print(student.items())
-pairs=list(student.items())
 
-print(pairs[0])
+print(len(collection))
 
-print(student.get("name"))
-print(student["name"])
+collection.pop()#remove random value
+print(collection)
 
-location={
-    "devision":"dhaka",
-    "distric":"shariatpur",
-    "union":"gharishar"
-   }
-student.update(location)
+collection.clear()#remove all
+print(collection)
 
-print(student)
+set1={4, 6, 7,8}
+set2={6, 3, 8,1}
+
+print(set1.union(set2))
+print(set1.intersection(set2))
+
+
+table={
+"a piece of furniture":"list of facts & figures",
+"cat":"a small animal"
+
+}    
+
+print(table)
 

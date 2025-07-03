@@ -289,7 +289,29 @@ student.update(location)
 
 print(student)
 #set in python
+#set in muteable but element of set is immuatble
+collection ={3, 6, 8.78,"abc",}
+# emptyset= set()
+collection.add("ratri")
+collection.add("ratri")#set ignore duplicate value
+collection.remove("ratri")
+print(collection)
+# collection.add(["ratri"])#set don't support list
 
+
+print(len(collection))
+
+collection.pop()#remove random value
+print(collection)
+
+collection.clear()#remove all
+print(collection)
+
+set1={4, 6, 7,8}
+set2={6, 3, 8,1}
+
+print(set1.union(set2))
+print(set1.intersection(set2))
 
 
 
