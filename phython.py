@@ -313,12 +313,25 @@ set2={6, 3, 8,1}
 print(set1.union(set2))
 print(set1.intersection(set2))
 
+#loop 
+count =1
+while count<= 5 : #count<=5 means print 5 times
+    print("learning python")
+    count+=1
+print(count)    
+#reverse
+i=5
+while i>=1:
+    print(i)
+    i-=1
+
+print(i)
 
 
 
 
 
-
+ 
 
 
 
