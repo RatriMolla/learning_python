@@ -177,7 +177,17 @@ while idx<len(list):
     print(list[idx])
     idx+=1
 
-
+# search for a number x in  tuple using loop
+tpl=(1,4,9,16,25,36 , 49, 64, 81,100 )
+pl=0
+nm=int(input("number"))
+while pl<len(tpl):
+    if tpl[pl]==nm:
+        print("found", tpl[pl] ,"in index",pl)
+        break
+    else:
+        print(" not found", tpl[pl] )    
+    pl+=1
 
 
 
