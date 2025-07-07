@@ -34,10 +34,19 @@ pl=0
 nm=int(input("number"))
 while pl<len(tpl):
     if tpl[pl]==nm:
-        print("found", tpl[pl] ,"in index",pl)
-        break
+        print("found", nm ,"in index",pl)
+        
     else:
-        print(" not found", tpl[pl] )    
+        print(" not found", nm)    
     pl+=1
+number = 0
+i=0
+while  i<= 5:
+    if(i==3):
+        i+=1
+        continue
+    print(i)
+    i+=1
 
+       
  
