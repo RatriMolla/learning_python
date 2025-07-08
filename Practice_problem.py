@@ -197,7 +197,17 @@ while  i<= 5:
         continue
     print(i)
        
+#codeforce problem solving 71A
 
+n= int(input())
+for _ in range(n):
+    word =str(input())
+    if len(word)>10:
+        abb=word[0]+str(len(word)-2)+[word-1]
+        print(abb)
+    else :
+        print (word)   
+        
 
 
 

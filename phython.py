@@ -325,7 +325,28 @@ while i>=1:
     print(i)
     i-=1
 
-print(i)
+print(i) 
+#for el(element) in list
+
+#for travesing list,string,tuples 
+list=[1,2,34,5]
+for el in list:
+    print(el)
+
+list=[1,2,3,4,5]
+for nm in list:
+    print(nm) 
+
+##codeforce problem using for loop
+n= int(input())
+for _ in range(n):
+    word =str(input())
+    if len(word)>10:
+        abb=word[0]+str(len(word)-2)+word[-1]
+        print(abb)
+    else :
+        print (word)   
+        
 
 
 

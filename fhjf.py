@@ -1,52 +1,66 @@
-# import problem
+# # import problem
 
-# print(problem.add(7,9))
+# # print(problem.add(7,9))
 
 
-# list=[1,2,3,2,1]
-# print(list)
-# list.reverse()
+# # list=[1,2,3,2,1]
+# # print(list)
+# # list.reverse()
 
-# if(list == list[::-1]):
-#     print("true")
-# else :   
-#     print("f")
+# # if(list == list[::-1]):
+# #     print("true")
+# # else :   
+# #     print("f")
 
-# 
+# # 
 
-# count =1
-# while count <= 5 :
-#     print(count)
-#     count += 1
-# print(count)
+# # count =1
+# # while count <= 5 :
+# #     print(count)
+# #     count += 1
+# # print(count)
 
-# i=5
-# while i>=1:
-#     print(i)
-#     i-=1
+# # i=5
+# # while i>=1:
+# #     print(i)
+# #     i-=1
 
-# print(i)
-#print number from 1 to 100
+# # print(i)
+# #print number from 1 to 100
 
-# search for a number x in  tuple using loop
-tpl=(1,4,9,16,25,36 , 49, 64, 81,100 )
-pl=0
-nm=int(input("number"))
-while pl<len(tpl):
-    if tpl[pl]==nm:
-        print("found", nm ,"in index",pl)
+# # search for a number x in  tuple using loop
+# tpl=(1,4,9,16,25,36 , 49, 64, 81,100 )
+# pl=0
+# nm=int(input("number"))
+# while pl<len(tpl):
+#     if tpl[pl]==nm:
+#         print("found", nm ,"in index",pl)
         
-    else:
-        print(" not found", nm)    
-    pl+=1
-number = 0
-i=0
-while  i<= 5:
-    if(i==3):
-        i+=1
-        continue
-    print(i)
-    i+=1
+#     else:
+#         print(" not found", nm)    
+#     pl+=1
+# number = 0
+# i=0
+# while  i<= 5:
+#     if(i==3):
+#         i+=1
+#         continue
+#     print(i)
+#     i+=1
 
+# list=[1,2,3,4,5]
+# for nm in list:
+#     print(nm)    
+
+
+n= int(input())
+for _ in range(n):
+    word =str(input())
+    if len(word)>10:
+        abb=word[0]+str(len(word)-2)+word[-1]
+        print(abb)
+    else :
+        print (word)   
+        
        
  
