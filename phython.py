@@ -346,6 +346,19 @@ for _ in range(n):
         print(abb)
     else :
         print (word)   
+#function in python
+#funciton def function_name(parameters1, parameters2):
+def cal_sum(a,b):
+     sum=a+b
+     print(sum)
+     return sum
+     #return a+b
+cal_sum(4,5)
+cal_sum(10.8,34)
+
+def print_hello():#empty function
+     print("hello")
+print_hello()             
         
 
 
