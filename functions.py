@@ -15,3 +15,11 @@ cal_sum(10.8,34)
 def print_hello():#empty function
      print("hello")
 print_hello()     
+
+city=["dhaka","rajshahi","cumilla","cattogram"]
+dist=["shariatpur","Fridpur"," Madaripur"]
+
+def print_len(list):
+     print (len(list))
+print_len(city)  
+print_len(dist)   
