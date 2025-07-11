@@ -208,7 +208,19 @@ for _ in range(n):
     else :
         print (word)   
         
+#WRP for factorial
 
+n=int(input("number:"))
+fact=1
+for i in range(1,n+1):
+     fact *= i
+print(n,"factorial is ",fact)
+
+#convert used to  inr
+def convert(usd_val):
+     inr= usd_val*123
+     print(usd_val,"USD=",inr,"INR")
+convert (80) 
 
 
     

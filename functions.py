@@ -7,7 +7,7 @@
 def cal_sum(a,b):
      sum=a+b
      print(sum)
-     return sum
+     return sum,
      #return a+b
 cal_sum(4,5)
 cal_sum(10.8,34)
@@ -28,8 +28,21 @@ print_len(dist)
 
 def print_list(list):
      for item in list:
-          print(item ,end=" ")
+          print(item )
 
 
 print_list(dist)          
 
+#WRP for factorial
+
+n=int(input("number:"))
+fact=1
+for i in range(1,n+1):
+     fact *= i
+print(n,"factorial is ",fact)
+
+# #convert used to  inr
+def convert(usd_val):
+     inr= usd_val*123
+     print(usd_val,"USD=",inr,"INR")
+convert (80)   
