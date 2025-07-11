@@ -17,9 +17,19 @@ def print_hello():#empty function
 print_hello()     
 
 city=["dhaka","rajshahi","cumilla","cattogram"]
-dist=["shariatpur","Fridpur"," Madaripur"]
+dist=["shariatpur", "Fridpur"," Madaripur"]
 
 def print_len(list):
      print (len(list))
 print_len(city)  
 print_len(dist)   
+
+#print(),len(),type(),range()
+
+def print_list(list):
+     for item in list:
+          print(item ,end=" ")
+
+
+print_list(dist)          
+
