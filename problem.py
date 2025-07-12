@@ -71,3 +71,11 @@ print(list2)
 # print(list)
 # list.append(input("enter movie:"))
  # to check is the list contaun a palindrom of elements.
+#recursion
+
+def show(N):
+    if(N==0):#Base case
+        return
+    print(N)
+    show(N-1)
+show(5)    

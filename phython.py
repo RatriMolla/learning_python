@@ -351,14 +351,43 @@ for _ in range(n):
 def cal_sum(a,b):
      sum=a+b
      print(sum)
-     return sum
+     return sum,
      #return a+b
 cal_sum(4,5)
 cal_sum(10.8,34)
 
 def print_hello():#empty function
      print("hello")
-print_hello() 
+print_hello()     
+
+city=["dhaka","rajshahi","cumilla","cattogram"]
+dist=["shariatpur", "Fridpur"," Madaripur"]
+
+def print_len(list):
+     print (len(list))
+print_len(city)  
+print_len(dist)   
+
+#print(),len(),type(),range()
+
+def print_list(list):
+     for item in list:
+          print(item )
+
+
+print_list(dist)          
+
+#recursion
+
+def show(N):
+    if(N==0):
+        return
+        print(n)
+        show(n-1)
+show(5)        
+
+ 
+
             
         
 
