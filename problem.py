@@ -73,9 +73,15 @@ print(list2)
  # to check is the list contaun a palindrom of elements.
 #recursion
 
-def show(N):
-    if(N==0):#Base case
-        return
-    print(N)
-    show(N-1)
-show(5)    
+# def show(N):
+#     if(N==0):#Base case
+#         return
+#     print(N)
+#     show(N-1)
+# show(5)  
+def fact(n):
+    if(n==0 or n==1):
+        return 1
+  
+    return fact(n-1) * n
+print(fact(7))    
